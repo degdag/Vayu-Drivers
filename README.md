@@ -1,12 +1,12 @@
 
-# Windows Driver pack for Surface Duo platforms
+# Windows Driver pack for Xiaomi Poco X3 Pro platform
 
-![Surface Duo Dual Screen Windows](https://user-images.githubusercontent.com/3755345/197420866-d3bb0534-c848-4cc2-a242-04dae48b0f6e.png)
-
-This repository contains driver binary files for Surface Duo 1.
-All driver binary files form a board support package to be used on Surface Duo 1 devices to provide hardware support for the Windows operating system.
+This repository contains driver binary files for Poco X3 Pro.
+All driver binary files form a board support package to be used on Poco X3 Pro devices to provide hardware support for the Windows operating system.
 
 These driver files are not perfect, typos may exist, feel free to file an issue on GitHub in case you found any.
+
+These driver files are based on @gus33000 's drivers for Surface Duo. Huge thanks to @gus33000.
 
 ## Resources
 
@@ -48,5 +48,9 @@ SOFTWARE.
 For preserving charset encoding, please checkout with using:
 
 ```
-git clone -c core.autocrlf=false https://github.com/WOA-Project/SurfaceDuo-Drivers
+git clone -c core.autocrlf=false https://github.com/degdag/Vayu-Drivers.git
+
+cd Vayu-Drivers 
+git checkout Vayu-dev
+
 ```
