@@ -50,7 +50,4 @@ For preserving charset encoding, please checkout with using:
 ```
 git clone -c core.autocrlf=false https://github.com/degdag/Vayu-Drivers.git
 
-cd Vayu-Drivers 
-git checkout Vayu-dev
-
 ```
